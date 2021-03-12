@@ -1,0 +1,53 @@
+@font-face{
+    font-family: Oswald;
+    src: url(fonts/Oswald-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.container{margin: 0px 150px;padding: 0px 15px;background-color: #fff;}
+
+.navbar-main{margin-top: 20px;}
+li{float: left;}
+ul{list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+li a{display: block;color: white;text-align: center;padding: 20px 15px;text-decoration: none;margin-left: 20px;}
+li a:hover{background: #c249bc;transition: 0.5s;}
+.top-header-right{position: absolute;right: 140px;top: 40px;color: #fff;font-family: sans-serif;font-size: 12px;}
+
+.main-header{padding: 15px 20px;margin-top: 10px;}
+.banner{float: right;margin-top: -10px;}
+
+.navbar-second{margin: 30px;}
+.navbar-second li a{margin-left: 0px;padding: 18px 16px;font-family: Oswald, sans-serif;color: #dddddd;}
+.navbar-second ul{padding:0px;}
+
+.home-img{background-color: #c249bc;margin-bottom: -10px;margin-top: -5px;}
+
+.navbar-small{margin-top: -10px;width: 70%;}
+.navbar-small li a{padding: 5px;color: #fff;background-color: #c249bc;}
+
+.slider-img{margin: 30px;background-image: url(images/slider_img4.jpg);height: 400px;background-repeat: no-repeat;margin-right: 20px;}
+.slider-text{position: absolute;bottom: 120px;left: 210px;font-family: oswald;font-size: 12px;color: #fff;}
+.slider-text h1{background-color: rgba(0, 0, 0, 0.5);margin-bottom: 10px;width: 60%;}
+.slider-text p{font-size: 16px;background-color: rgba(0, 0, 0, 0.5);}
+
+.latest-post-container{float: right;overflow: scroll;font-family: oswald;height: 400px; margin-bottom:;}
+.header-latest-post{background-color: #000;height: 20px; margin-bottom: 30px; ;}
+.header-latest-post h2{text-align: center;color: #fff;background-color: #c249bc;width: 30%;margin-left: 150px;}
+.latest-post-container p{margin-bottom: 10px;}
+
+.business-container{margin: 30px;font-family: Oswald;}
+.header-business-container{background-color: #000;height: 20px;margin-bottom: 30px;width: 60%;}
+.header-business-container h2{text-align: center;color: #fff;background-color: #c249bc;margin-left: 250px; width: 20%;}
+.col-1{float: left;}
+.col-1 h2:hover{color: #c249bc;cursor: pointer;}
+.col-2{position: absolute;right: 45%;top: 820px;}
+.col-2 p{margin-bottom: 10px;}
+
+.popular-post-container{margin-top: -50px;overflow: hidden;}
+.popular-post-container p{margin-bottom: 10px;}
